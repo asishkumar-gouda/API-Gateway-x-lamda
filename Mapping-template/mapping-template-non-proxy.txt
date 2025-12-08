@@ -1,0 +1,9 @@
+#set($inputRoot = $input.json('$'))
+#set($originalParam = $inputRoot.name)
+#set($prefix = "non_proxy_")
+#if(!$originalParam.startsWith($prefix))
+  #set ($originalParam = $prefix + $originalParam)
+#end
+{
+  "name": "$originalParam"
+}
