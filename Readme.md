@@ -154,13 +154,13 @@ exports.handler = async (event) => {
 ### Step 5: Test Your API
 
 ```bash
-curl "https://{api-id}.execute-api.{region}.amazonaws.com/dev/users?name=Rahul"
+curl "https://{api-id}.execute-api.{region}.amazonaws.com/dev/users?name=Asishkumar"
 ```
 
 **Expected Response**:
 ```json
 {
-  "message": "Hello, Rahul! Your request was successful.",
+  "message": "Hello, Asishkumar! Your request was successful.",
   "status": "success"
 }
 ```
@@ -181,7 +181,7 @@ curl "https://{api-id}.execute-api.{region}.amazonaws.com/dev/users?name=Rahul"
   "path": "/users",
   "httpMethod": "GET",
   "headers": { ... },
-  "queryStringParameters": { "name": "Rahul" },
+  "queryStringParameters": { "name": "Asishkumar" },
   "body": null,
   "isBase64Encoded": false
 }
@@ -663,5 +663,6 @@ AWS API Gateway combined with Lambda provides a powerful, scalable, and cost-eff
 
 **License**: MIT
 
-**Last Updated**: December 2025
+**Last Updated by Asishkumar**: December 2025
+
 
